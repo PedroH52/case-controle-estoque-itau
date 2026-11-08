@@ -163,7 +163,9 @@ Para operar em escala corporativa no ecossistema **Itaú**, a solução evoluiri
 
 ## 8. Uso Crítico de Inteligência Artificial
 
-A IA foi utilizada ativamente como co-piloto técnico de engenharia:
+Conforme orientado no case, a Inteligência Artificial foi utilizada ativamente como ferramenta de aceleração de engenharia e co-piloto técnico.
+
+* **Ferramentas de IA Utilizadas**: **Claude (Anthropic)** e **Gemini (Google)** integrados no ambiente de desenvolvimento como assistentes de engenharia e pair programming.
 
 * **Onde a IA mais agregou**:
   - Aceleração no desenho dos contratos DTOs (Pydantic v2) e endpoints FastAPI.
