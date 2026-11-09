@@ -167,6 +167,14 @@ Conforme orientado no case, a Inteligência Artificial foi utilizada ativamente 
 
 * **Ferramentas de IA Utilizadas**: **Claude (Anthropic)** e **Gemini (Google)** integrados no ambiente de desenvolvimento como assistentes de engenharia e pair programming.
 
+* **Principais Prompts / Interações Utilizadas**:
+  1. *Modelagem de Domínio & Invariante*:  
+     > *"Atuando como Engenheiro de Software Sênior, estruture a modelagem DDD em Python para um agregado de Estoque onde o invariante `Total = Disponível + Reservado + Bloqueado` seja rigorosamente preservado e thread-safe."*
+  2. *Validação Concorrente & Testes de Estresse*:  
+     > *"Desenvolva uma suíte de testes de concorrência com `ThreadPoolExecutor` simulando 50 threads disputando simultaneamente 100 unidades em lotes de 3, garantindo que exatamente 33 tenham sucesso e 17 falhem com integridade intacta."*
+  3. *Arquitetura e Endpoints REST em Português*:  
+     > *"Construa a camada de aplicação com DTOs Pydantic v2, endpoints FastAPI e middleware global de exceções mapeando as regras de negócio para códigos HTTP semânticos (400, 404, 409, 422)."*
+
 * **Onde a IA mais agregou**:
   - Aceleração no desenho dos contratos DTOs (Pydantic v2) e endpoints FastAPI.
   - Estruturação do teste de estresse de concorrência com `ThreadPoolExecutor` simulando disputa real de estoque por 50 threads.
